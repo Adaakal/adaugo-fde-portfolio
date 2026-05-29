@@ -1,3 +1,5 @@
+import AskBox from "./components/AskBox";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -19,34 +21,10 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Chat box placeholder */}
+      {/* Ask box */}
       <section className="max-w-3xl mx-auto px-6 pb-20">
-        <div className="border border-gray-200 rounded-xl p-6 bg-gray-50">
-          <p className="text-sm font-medium text-gray-900 mb-3">
-            Ask my portfolio anything
-          </p>
-          <p className="text-sm text-gray-600 mb-4">
-            Powered by the Claude API. Try: &quot;What is her experience with
-            Postgres?&quot; or &quot;Walk me through the TikTok caption
-            project.&quot;
-          </p>
-          <div className="flex gap-2">
-            <input
-              type="text"
-              placeholder="Coming online shortly..."
-              disabled
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-sm bg-white disabled:bg-gray-100 disabled:text-gray-400"
-            />
-            <button
-              disabled
-              className="px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-medium disabled:bg-gray-400"
-            >
-              Ask
-            </button>
-          </div>
-        </div>
+        <AskBox />
       </section>
-
       {/* Projects header */}
       <section className="max-w-3xl mx-auto px-6 pb-8">
         <h2 className="text-3xl font-bold mb-2">Three projects</h2>
