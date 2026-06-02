@@ -16,7 +16,7 @@ export default function Home() {
           portfolio is the proof.
         </p>
         <p className="text-base text-gray-600 leading-relaxed">
-          Senior Program &amp; AI Systems Manager at Sweat Alliance. MS Computer
+          Product Leader &amp; AI Systems Manager at Sweat Alliance. MS Computer
           Science, Stevens Institute of Technology. Based in Los Angeles.
         </p>
       </section>
