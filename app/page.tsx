@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero */}
       <section className="max-w-3xl mx-auto px-6 pt-24 pb-16">
         <p className="text-sm uppercase tracking-widest text-gray-500 mb-6">
-          Portfolio — Deloitte Cyber FDE Application
+          Portfolio — Forward Deployed Engineer (FDE)
         </p>
         <h1 className="text-5xl font-bold leading-tight mb-6">
           Adaugo Akaluso
