@@ -1,6 +1,6 @@
 # adaugo-fde-portfolio
 
-Portfolio application for the Deloitte Cyber Forward Deployed Engineer role.
+Portfolio application for a specific Forward Deployed Engineer role.
 Live at [adaugo-fde-portfolio.vercel.app](https://adaugo-fde-portfolio.vercel.app).
 
 This repository is the portfolio. The brief lives at the top of the page, and
@@ -46,7 +46,7 @@ runs server-side only, so the Anthropic API key never reaches the browser.
    exact refusal line: `I don't have that answer and I will NOT hallucinate.`
 5. The answer streams back as JSON and renders in the UI.
 
-The grounding brief lives inline in `app/api/ask/route.ts`. The decision to
+The grounding brief lives in line in `app/api/ask/route.ts`. The decision to
 keep it inline rather than in a separate file is intentional: one file to
 audit, one file to update, no risk of a stale copy.
 
